@@ -56,10 +56,14 @@ public class MainActivity extends AppCompatActivity {
     private BrokenTouchListener whiteListener;
     private Paint whitePaint;
     private boolean effectEnable = true;
+//////////////////////////////////        //compile 'com.zys:brokenview:1.0.3'
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
         initView();
 
